@@ -1,0 +1,7 @@
+# Tell GitHub to tell mobile browsers never to cache this file
+include: [Gatos_Bar_Getraenkekarte.pdf]
+webrick:
+  headers:
+    "Cache-Control": "no-cache, no-store, must-revalidate"
+    "Pragma": "no-cache"
+    "Expires": "0"
